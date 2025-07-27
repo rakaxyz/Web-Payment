@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .payment-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .payment-header {
+            color: #00a3e0;
+            margin-bottom: 20px;
+        }
+        .payment-method {
+            margin: 15px 0;
+        }
+        .qr-code {
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+            border: 1px solid #ddd;
+        }
+        .dana-number {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h2 class="payment-header">Payment Method</h2>
+        
+        <div class="payment-method">
+            <h3>DANA</h3>
+            <div class="dana-number">085789954479</div>
+            <p>Silakan transfer ke nomor DANA di atas.</p>
+        </div>
+        
+        <div class="payment-method">
+            <h3>QRIS</h3>
+            <img src="https://img1.pixhost.to/images/7472/625786516_imgtmp.jpg" alt="QR Code" class="qr-code">
+            <p>Scan QRIS untuk pembayaran.</p>
+        </div>
+    </div>
+</body>
+</html>
